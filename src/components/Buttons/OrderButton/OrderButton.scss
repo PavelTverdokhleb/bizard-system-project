@@ -1,0 +1,49 @@
+.order_btn {
+  padding:  0 5px;
+  background-color: transparent;
+  opacity: 0.5;
+  color: #29323C;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  justify-content: flex-start;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  &:hover {
+    opacity: 1;
+  }
+  &.arrow-up {
+    svg {
+      visibility: visible;
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+      -webkit-animation: spin 0.5s linear;
+      animation: spin 0.5s linear;
+    }
+  }
+  &.arrow-down {
+    svg {
+      visibility: visible;
+      -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+      -webkit-animation: spin-reverse 0.5s linear;
+      animation: spin-reverse 0.5s linear;
+    }
+  }
+  svg {
+    visibility: hidden;
+    font-size: 20px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+}

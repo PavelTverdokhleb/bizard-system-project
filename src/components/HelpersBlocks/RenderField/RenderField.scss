@@ -1,0 +1,212 @@
+.custom_input {
+  display: inline-block;
+  position: relative;
+  width: 380px;
+  input {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    height: 56px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 27px;
+    background-color: transparent;
+    padding: 0 52px 0 20px;
+    opacity: 0.6;
+    font-weight: 300;
+    &:focus {
+      opacity: 1;
+    }
+    &:disabled {
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+  }
+}
+
+.auth_input {
+  input {
+    border: 1px solid #FDFCFB;
+    color: #FDFCFB;
+    &::placeholder {
+      color: #AAAEB3;
+    }
+  }
+}
+
+.settings_input {
+  width: 533px;
+  margin-bottom: 40px;
+  display: block;
+  input {
+    border: 1px solid #29323C;
+    color: #29323C;
+    font-size: 16px;
+    &::placeholder {
+      color: #29323C;
+    }
+  }
+}
+
+.edit_wallet_input {
+  input {
+    border: 1px solid #29323C;
+    color: #29323C;
+    &::placeholder {
+      color: #94999E;
+    }
+  }
+}
+
+.edit_input {
+  input {
+    border: 1px solid #29323C;
+    color: #29323C;
+    &::placeholder {
+      color: #94999E;
+    }
+  }
+}
+
+.error_field {
+  input {
+    border: 1px solid #FF4D62;
+  }
+  .field_symbol {
+    visibility: hidden;
+  }
+}
+
+.error_container {
+  position: absolute;
+  right: 15px;
+  top: 17px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+  -webkit-animation: error_fade_in 0.3s linear;
+  animation: error_fade_in 0.3s linear;
+}
+
+.error_message {
+  color: #FF4D62;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14px;
+  position: absolute;
+  bottom: -14px;
+  right: 1px;
+  white-space: nowrap;
+}
+
+.active_input {
+  &.auth_input {
+    input {
+      border: 1px solid #FDFCFB;
+      opacity: 1;
+    }
+  }
+  &.edit_input {
+    input {
+      border: 1px solid #29323C;
+      opacity: 1;
+    }
+  }
+  &.disable_input {
+    input {
+      border: 1px solid #94989d;
+      color: rgba(41, 50, 60, 0.5);
+      opacity: 1;
+      cursor: not-allowed;
+    }
+  }
+}
+
+.floating_label {
+  position: absolute;
+  left: 20px;
+  top: 18px;
+  width: 300px;
+  line-height: 20px;
+  color: #94999E;
+  font-weight: 400;
+  z-index: 5;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: text;
+}
+
+.floating_label_active {
+  transform: translate(-48px, -40px) scale(0.8);
+  color: #29323C;
+  cursor: default;
+}
+
+.pool_pre_label {
+  height: 48px;
+  width: 146px;
+  border-radius: 3px;
+  background-color: rgba(53, 49, 71, 0.05);
+  color: #29323C;
+  font-size: 16px;
+  line-height: 27px;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field_symbol {
+  position: absolute;
+  right: 18px;
+  top: 18px;
+  line-height: 20px;
+  color: #29323C;
+  font-weight: 400;
+  z-index: 5;
+}
+
+.field_symbol_wrapper {
+  input {
+    padding: 0 49px 0 20px;
+  }
+  .error_container {
+    background-color: #fff;
+  }
+}
+
+.pre_label_pool_address {
+  input {
+    padding: 0 52px 0 170px;
+  }
+}
+
+.full_width_text_field {
+  width: 100%;
+}
+
+.half_width_text_field {
+  width: 47%;
+}
+
+.small_field{
+  width: 160px;
+  margin-left: 31px;
+}
+.disable_field {
+  cursor: not-allowed;
+  &.active_select {
+    & > div {
+      opacity: 0.6;
+    }
+  }
+}
+
+.full_disable_field {
+  cursor: not-allowed;
+  opacity: 0.6;
+}

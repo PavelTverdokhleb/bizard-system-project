@@ -1,0 +1,129 @@
+.auto_top_table_block{
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  margin-bottom: 5px;
+  padding: 25px 20px 20px;
+  .auto_top_caption{
+    margin-bottom: 25px;
+    div{
+      color: #29323C;
+      font-size: 18px;
+      &:last-of-type{
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.profitability-status{
+  display: flex;
+  justify-content: space-between;
+  div{
+    color: #29323C;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    i {
+      margin-right: 10px;
+      height: 16px;
+      width: 16px;
+      display: inline-block;
+    }
+    .active-status{
+      background-color: rgba(44,193,151,0.2);
+    }
+    .inactive-status{
+      background-color: rgba(239,239,240,0.4);
+    }
+    .not-configured-status{
+      border: 0.5px solid #979797;
+    }
+  }
+}
+
+.switching_columns {
+  margin: 0;
+  .table_body .table_row{
+    height: 78px;
+  }
+  .active-row{
+    background: #d5f3ea;
+  }
+  .inactive-row{
+    background: #f9f9f9;
+  }
+  .table_row {
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    & > :first-child {
+      width: 20%;
+    }
+    & > :nth-child(2) {
+      width: 20%;
+      text-align: right;
+      flex-direction: row-reverse;
+      padding-right: 5%;
+    }
+    & > :nth-child(3) {
+      width: 15%;
+    }
+    & > :nth-child(4) {
+      width: 13%;
+      color: #29C069;
+      opacity: 1;
+      font-weight: 500;
+    }
+    & > :nth-child(5) {
+      width: 13%;
+    }
+    & > :last-child {
+      width: 14%;
+    }
+  }
+}
+
+.btn_create_pool {
+  button{
+    color: #29323C;
+    font-size: 10px;
+    text-align: center;
+    min-height: 32px;
+    min-width: 95px;
+    border: 1px solid #29323C;
+    border-radius: 3px;
+    font-family: "Montserrat", sans-serif;
+    padding: 8px 5px;
+    & > :first-child {
+      font-weight: 500;
+    }
+  }
+}
+
+.icon-coin{
+  margin-right: 15px;
+  img{
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.switch_coin_name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  span {
+    font-weight: 500;
+    color: #29323C;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+.switch_profit {
+  font-weight: 500;
+}

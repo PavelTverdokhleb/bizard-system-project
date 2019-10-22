@@ -1,0 +1,13 @@
+.table_loader {
+  position: absolute;
+  left: 0;
+  top: 9px;
+  width: 100%;
+  & > div {
+    background-color: #BBBDC0;
+    height: 2px;
+    & > div {
+      background-color: #29323C;
+    }
+  }
+}

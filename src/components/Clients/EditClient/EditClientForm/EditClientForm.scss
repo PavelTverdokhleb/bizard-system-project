@@ -1,0 +1,94 @@
+.editing_client {
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 2px solid #caccce;
+  .info-client{
+    margin-top: 20px;
+    color: #29323C;
+    font-size: 14px;
+    line-height: 27px;
+    display: inline-block;
+  }
+  .fee-block{
+    margin: 20px 0
+  }
+  .client_edit_subtitle{
+    margin: 40px 0;
+  }
+  .client_wallets_wrapper {
+    & > :last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.radio_descriptions {
+  color: #29323C;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  padding-right: 10px;
+  margin: 4px 0 20px 0;
+  h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+  }
+  p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
+
+.client_wallets_wrapper {
+  .edit_input {
+    display: block;
+    margin-bottom: 40px;
+    width: 500px;
+  }
+}
+
+.client_edit_subtitle {
+  color: #29323C;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.client_type_description {
+  color: #29323C;
+  font-size: 14px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+
+.client_default_wallets_block {
+  margin-left: 30px;
+}
+
+.change_mode_dialog {
+  .dialog_message {
+    padding: 27px 50px 0;
+  }
+}
+
+.change_mode_list {
+  margin: 30px 0 50px;
+  li {
+    color: #29323C;
+    font-size: 16px;
+    line-height: 27px;
+    padding-left: 35px;
+    position: relative;
+    word-break: break-word;
+    &:before {
+      content: '\200B';
+      width: 3px;
+      height: 3px;
+      position: absolute;
+      margin: 12px;
+      left: 0;
+      top: 0;
+      background-color: #636970;
+      border-radius: 50%;
+    }
+  }
+}

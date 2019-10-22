@@ -1,0 +1,70 @@
+.rent_page {
+  .rent_top_block {
+    margin-bottom: 2%;
+  }
+  .table_container {
+    margin: 2% 0;
+  }
+}
+
+.rent_top_block {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  & > div {
+    width: 32%;
+    max-height: 120px;
+  }
+}
+
+.rent_block_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.rent_unpaid_balance {
+  & > div {
+    min-height: 37px;
+  }
+  & > :first-child {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+
+.rent_option_text {
+  color: #29323C;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.rent_option_small_text {
+  color: #29323C;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.rent_option_value {
+  color: #29323C;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: right;
+}
+
+.rent_option_small_value {
+  color: #29323C;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+}
+
+.rent_medium_text {
+  font-weight: 500;
+}

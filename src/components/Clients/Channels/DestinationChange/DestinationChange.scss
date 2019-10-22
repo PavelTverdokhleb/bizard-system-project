@@ -1,0 +1,57 @@
+.channel_select_destination {
+  background-color: transparent;
+  .destination_select_wrapper {
+    & > div {
+      max-width: 100%;
+      color: #54606D;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      & > :first-child > :first-child {
+        padding-left: 5px;
+        padding-right: 20px;
+        &:focus {
+          background-color: transparent;
+        }
+      }
+      svg {
+        font-size: 16px;
+        margin-top: 4px;
+      }
+      &:before, &:after {
+        content: none;
+      }
+      .destination_select_disabled {
+        cursor: not-allowed;
+        opacity: 0.4;
+      }
+    }
+  }
+}
+
+.destination_load {
+  padding: 0 5px;
+  svg {
+    color: #29323C;
+  }
+}
+
+body {
+  .select_paper_destination {
+    ul {
+      padding: 0;
+      li {
+        font-family: "Montserrat", sans-serif;
+        font-size: 14px;
+        padding: 8px 5px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+.destination_error_wrapper {
+  img {
+    cursor: pointer;
+  }
+}

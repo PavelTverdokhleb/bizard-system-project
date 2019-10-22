@@ -1,0 +1,53 @@
+.verify_pool_wrapper {
+  min-height: 492px;
+  min-width: 600px;
+  overflow: hidden;
+  .form_header {
+    margin-bottom: 45px;
+  }
+  .action_button button {
+    & > :first-child {
+      font-weight: 500;
+    }
+  }
+}
+
+.verify_fields_wrapper {
+  padding: 20px 30px;
+  border-bottom: 3px solid #EFEFF0;
+  .edit_input {
+    margin-bottom: 40px;
+  }
+  .double_fields_wrapper {
+    .edit_input {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.verify_buttons_wrapper {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  .action_button {
+    margin-right: 30px;
+  }
+}
+
+.form_header {;
+  color: #29323C;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.dialog_verify_loader {
+  min-height: 492px;
+  min-width: 600px;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

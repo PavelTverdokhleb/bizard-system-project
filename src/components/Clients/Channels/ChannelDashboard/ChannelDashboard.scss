@@ -1,0 +1,291 @@
+.direction-box-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .inner-box {
+    width: 32.5%;
+  }
+  .inner-box-half {
+    width: 49.375%;
+  }
+  .inner-box-lg {
+    width: 66%;
+    margin-bottom: 15px;
+    .inner-header {
+      height: 53px;
+      padding: 20px;
+      img {
+        max-height: 22px;
+      }
+    }
+    .config-box {
+      height: calc(100% - 53px);
+    }
+  }
+}
+.box-container {
+  height: 100%;
+}
+.inner-box, .inner-box-half {
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.inner-header {
+  margin-bottom: 2px;
+}
+.inner-header, .miners-info-container {
+  padding: 20px 30px;
+  background-color: #ffffff;
+  h1 {
+    text-align: center;
+    color: #29323C;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  h2 {
+    color: #29323C;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: normal;
+  }
+}
+.image-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    margin-right: 15px;
+  }
+}
+.sub-container {
+  padding: 20px 34px;
+  background-color: #ffffff;
+  height: calc(100% - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .small-gray-text {
+    margin-top: 20px;
+  }
+  .default-text {
+    margin-bottom: 10px;
+  }
+}
+.running_block_content{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 100px;
+  flex-direction: row;
+  div{
+    p{
+      text-align: center;
+    }
+    p:first-of-type{
+      padding-bottom: 15px;
+    }
+  }
+
+}
+.config-box {
+  position: relative;
+  width: 100%;
+  .config-content {
+    word-wrap: break-word;
+    padding: 10px 20px 10px 10px;
+  }
+}
+.box-column-container {
+  padding: 10px 30px;
+  .info-container {
+    margin: 10px 0;
+    p {
+      width: 50%;
+    }
+  }
+}
+.box-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 100%;
+}
+.config-box {
+  padding: 5px 5px 5px 40px;
+  p {
+    padding: 0;
+    font-size: 14px;
+  }
+  & > div > :nth-child(2) {
+    background-color: #e9f1fc;
+    & > div {
+      background-color: #578bc7 !important;
+    }
+  }
+  & > div > :last-child {
+    background-color: #e9f1fc;
+    & > div {
+      background-color: #578bc7 !important;
+    }
+  }
+}
+.info-container {
+  display: flex;
+  justify-content: space-between;
+}
+.hashrate-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  p {
+    width: 50%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .red-span{
+    color: #ff3131;
+  }
+}
+.description {
+  color: #29323C;
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+.channel-info-box {
+  .hashrate-container {
+    justify-content: space-between;
+    p {
+      text-align: left;
+    }
+  }
+  .main-info {
+    font-size: 16px;
+    a{
+      color: #29323C;
+      margin-left: 5px;
+    }
+    span{
+      margin-left: 5px;
+    }
+  }
+}
+.main-info {
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  color: #29323C;
+  font-weight: 500;
+}
+.main-info-large {
+  color: #29323C;
+  font-size: 48px;
+  line-height: 40px;
+  margin-top: 20px;
+  text-align: center;
+}
+.space-bottom {
+  margin-bottom: 15px;
+}
+.miners-info-container {
+  padding-bottom: 22px;
+  background-color: #ffffff;
+  & ~ .sub-container {
+    padding: 0 34px 44px;
+  }
+}
+.earnings-info-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  p {
+    margin-bottom: 5px;
+  }
+}
+
+.default-text {
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.default-text-large {
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  .default-gray-text {
+    padding-left: 10px;
+  }
+}
+
+.default-gray-text {
+  opacity: 0.66;
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.small-gray-text {
+  opacity: 0.66;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.chart_block {
+  height: 521px;
+}
+
+.chart_btn {
+  & > button {
+    margin-left: 10px;
+  }
+}
+
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  button {
+    color: #354052;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid transparent;
+    -webkit-transition: all ease .3s ;
+    -moz-transition: all ease .3s ;
+    -ms-transition: all ease .3s ;
+    -o-transition: all ease .3s ;
+    transition: all ease .3s ;
+    &:hover {
+      border: 1px solid #29323C;
+    }
+    &.active_chart_btn {
+      background-color: #29323C;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.chart_worker {
+  padding: 20px 30px;
+  background-color: #fff;
+}
+
+.dashboard_bizard_rent {
+  display: flex;
+  align-items: center;
+  img {
+    width: 19px;
+  }
+}

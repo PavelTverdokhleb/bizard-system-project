@@ -1,0 +1,20 @@
+.billing_columns {
+  .table_row {
+    & > :first-child {
+      width: 25%;
+    }
+    & > :nth-child(2) {
+      width: 25%;
+    }
+    & > :last-child {
+      width: 50%;
+    }
+  }
+}
+
+.billing_page {
+  position: relative;
+  .table_container {
+    margin: 0 0 20px;
+  }
+}

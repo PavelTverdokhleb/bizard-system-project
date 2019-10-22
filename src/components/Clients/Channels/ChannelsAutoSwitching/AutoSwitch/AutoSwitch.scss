@@ -1,0 +1,56 @@
+.auto_switch_inner {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  margin-bottom: 20px;
+  & > :first-child {
+    margin-right: 25px;
+  }
+  & > div {
+    width: 50%;
+    max-height: 120px;
+  }
+}
+
+.auto_block_white {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: #ffffff;
+}
+
+.switch_option_text {
+  color: #29323C;
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.switch_option_small_text {
+  color: #29323C;
+  font-size: 12px;
+}
+
+.dialog_auto_wrapper {
+  .dialog_message {
+    max-width: 400px;
+  }
+  form {
+    width: 320px;
+    .edit_input {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.auto_switch_text_wrapper {
+  position: relative;
+  width: 75%;
+  & > .auto_small_text {
+    position: absolute;
+    top: 23px;
+    left: 0;
+  }
+}

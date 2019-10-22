@@ -1,0 +1,33 @@
+.connection_log_columns {
+  .table_row {
+    & > :first-child {
+      width: 33%;
+    }
+    & > :nth-child(2) {
+      width: 33%;
+    }
+    & > :last-child {
+      width: 33%;
+    }
+  }
+}
+
+.connection_log_page {
+  .table_container {
+    margin: 0 0 20px;
+  }
+  .table_options_container {
+    margin-bottom: 10px;
+  }
+}
+
+.table_filters {
+  display: flex;
+  align-items: center;
+  & > div {
+    margin-right: 20px;
+  }
+  & > :last-child {
+    margin-right: 0;
+  }
+}

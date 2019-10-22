@@ -1,0 +1,25 @@
+.pool_edit_fields_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  & > :first-child {
+    width: 68%;
+  }
+  & > :last-child {
+    width: 28%;
+  }
+  .edit_input, .render_select_wrapper {
+    margin-bottom: 40px;
+  }
+}
+
+.double_fields_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fields_wrapper_pool {
+  margin-top: 8px;
+}

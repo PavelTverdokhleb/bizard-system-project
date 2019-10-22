@@ -1,0 +1,129 @@
+.table_body {
+  .hardware_item_wrapper {
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    margin:  0 0 5px 0;
+    &:before {
+      content: none;
+    }
+    & > :first-child {
+      padding: 0 15px;
+      min-height: 88px;
+      & > :first-child {
+        margin: 0;
+      }
+      & > :last-child {
+        svg {
+          font-size: 18px;
+        }
+      }
+    }
+    .hardware_detail_wrapper {
+      flex-direction: column;
+      padding: 10px 20px 20px;
+    }
+    .hardware_tabs_wrapper {
+      button {
+        font-family: "Montserrat", sans-serif;
+        opacity: 0.5;
+        color: #29323C;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: none;
+        min-height: 40px;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        &:hover {
+          opacity: 1;
+        }
+        &.tab_active {
+          opacity: 1;
+        }
+        & > :first-child > :first-child {
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 8px;
+        }
+      }
+      & > div > div {
+        &:before {
+          content: '';
+          display: block;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 2px;
+          width: 100%;
+          background-color: #BBBDC0;
+        }
+      }
+    }
+    .tabs_indicator {
+      background-color: #29323C;
+    }
+  }
+}
+
+.worker_hardware_columns {
+  .table_body {
+    .table_row {
+      padding: 0;
+      width: 100%;
+      margin: 0;
+    }
+  }
+  .table_row {
+    .status_block {
+      p {
+        line-height: 22px;
+      }
+    }
+    & > :first-child {
+      width: 20%;
+    }
+    & > :nth-child(2) {
+      width: 20%;
+    }
+    & > :nth-child(3) {
+      width: 20%;
+    }
+    & > :nth-child(4) {
+      width: 20%;
+    }
+    & > :last-child {
+      width: 20%;
+      padding-right: 30px;
+    }
+  }
+}
+
+.system-log-info{
+  margin: 20px 20px 10px;
+  border: 1px solid rgba(72, 85, 99, 0.3);
+  border-radius: 3px;
+  padding: 10px 3px 10px 20px;
+  .block-log-info{
+    p{
+      color: #485563;
+      padding-right: 17px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+}
+
+.miners_chart_wrapper {
+  .chart-header {
+    justify-content: flex-end;
+  }
+  .inner-header {
+    padding: 5px 20px;
+  }
+  .chart_worker {
+    padding: 0;
+  }
+}

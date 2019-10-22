@@ -1,0 +1,31 @@
+.settings-wallets{
+  width: 100%;
+  display: inline-block;
+  margin-top: 25px;
+  .title-settings{
+    padding: 30px 20px 20px;
+    color: #29323C;
+    font-size: 16px;
+    line-height: 27px;
+    background: #fff;
+  }
+  form{
+    .field-block{
+      background: #fff;
+      padding: 20px 20px 30px;
+    }
+    label:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+  .settings-button{
+    border-top: 3px solid #E9EAEB;
+    background: #fff;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+  }
+  .page_success, .page_error {
+    margin-left: 15px;
+  }
+}

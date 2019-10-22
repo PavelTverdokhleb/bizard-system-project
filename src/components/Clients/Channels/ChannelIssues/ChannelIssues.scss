@@ -1,0 +1,19 @@
+.issues_columns {
+  .table_row {
+    & > :first-child {
+      width: 25%;
+    }
+    & > :nth-child(2) {
+      width: 25%;
+    }
+    & > :last-child {
+      width: 50%;
+    }
+  }
+}
+
+.issues_page {
+  .table_container {
+    margin: 0 0 20px;
+  }
+}

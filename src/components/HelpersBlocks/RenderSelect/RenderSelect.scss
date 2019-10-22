@@ -1,0 +1,76 @@
+.render_select_wrapper {
+  width: 380px;
+  display: inline-block;
+  position: relative;
+  & > div {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    min-height: 56px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 41px;
+    border: 1px solid #29323C;
+    color: #29323C;
+    opacity: 0.6;
+    z-index: 20;
+    &:before, &:after {
+      content: unset;
+    }
+    & > div {
+      & > :first-child {
+        padding: 0 46px 0 20px;
+        line-height: 54px;
+        &:focus {
+          background-color: transparent;
+        }
+      }
+      svg {
+        right: 14px;
+        color: #29323C;
+        font-size: 18px;
+        top: calc(50% - 9px);
+      }
+    }
+  }
+}
+
+body {
+  .select_paper_root {
+    border-radius: 6px;
+    & > ul {
+      & > li {
+        font-family: "Montserrat", sans-serif;
+        padding-left: 20px;
+      }
+    }
+  }
+}
+
+.error_field_select {
+  & > div {
+    border: 1px solid #FF4D62;
+    & > div {
+      svg {
+        color: #FF4D62;
+      }
+    }
+  }
+  .error_container {
+    right: 40px;
+  }
+}
+
+.active_select {
+  & > div {
+    border: 1px solid #29323C;
+    opacity: 1;
+  }
+}
+
+.half_width_select_field {
+  width: 47%;
+}
+
+.full_width_select_field {
+  width: 100%;
+}

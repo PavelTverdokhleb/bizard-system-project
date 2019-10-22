@@ -1,0 +1,40 @@
+.pools_columns {
+  .table_row {
+    & > :first-child {
+      width: 10%;
+    }
+    & > :nth-child(2) {
+      width: 16%;
+    }
+    & > :nth-child(3) {
+      width: 10%;
+    }
+    & > :nth-child(4) {
+      width: 8%;
+    }
+    & > :nth-child(5) {
+      width: 19%;
+    }
+    & > :nth-child(6) {
+      width: 11%;
+    }
+    & > :nth-child(7) {
+      width: 11%;
+    }
+    & > :nth-child(8) {
+      width: 6%;
+      text-align: center;
+    }
+    & > :last-child {
+      width: 9%;
+    }
+  }
+}
+.pools_page {
+  .table_container {
+    margin: 0 0 25px;
+  }
+  .destination_load {
+    justify-content: center;
+  }
+}

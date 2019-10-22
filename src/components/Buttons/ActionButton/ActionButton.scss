@@ -1,0 +1,69 @@
+.action_button {
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  button {
+    font-family: "Montserrat", sans-serif;
+    min-width: 150px;
+    min-height: 56px;
+    border-radius: 3px;
+    box-shadow: none;
+    & > :first-child {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+    }
+  }
+}
+
+.action_button_cancel {
+  button {
+    color: #29323C;
+    background-color: #EFEFF0;
+    border: 1px solid #EFEFF0;
+    &:hover {
+      background-color: #f7f7f8;
+    }
+  }
+}
+
+.action_button_terminate {
+  button {
+    color: #D0021B;
+    background-color: transparent;
+    border: 1px solid #D0021B;
+    &:hover {
+      background-color: #d0b0af;
+    }
+  }
+}
+
+.action_button_verify {
+  button {
+    color: #29323C;
+    background-color: transparent;
+    border: 1px solid #29323C;
+    &:hover {
+      background-color: #647b8e;
+    }
+  }
+}
+
+.action_button_save {
+  button {
+    color: #FFFFFF;
+    background-color: #29323C;
+    border: 1px solid #29323C;
+    &:disabled {
+      opacity: 0.7;
+      color: #FFFFFF;
+      background-color: #29323C;
+    }
+    &:hover {
+      background-color: #425060;
+    }
+  }
+}

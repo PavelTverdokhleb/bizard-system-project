@@ -1,0 +1,37 @@
+.table_button {
+  button {
+    font-family: "Montserrat", sans-serif;
+    min-width: 120px;
+    min-height: 36px;
+    border-radius: 3px;
+    box-shadow: none;
+    & > :first-child {
+      font-size: 10px;
+      font-weight: 500;
+      line-height: 13px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.table_button_select {
+  button {
+    color: #29323C;
+    background-color: transparent;
+    border: 1px solid #3A3A3A;
+    &:hover {
+      background-color: #f7f7f8;
+    }
+  }
+}
+
+.table_button_delete {
+  button {
+    color: #D0021B;
+    background-color: transparent;
+    border: 1px solid #D0021B;
+    &:hover {
+      background-color: #f7f7f8;
+    }
+  }
+}

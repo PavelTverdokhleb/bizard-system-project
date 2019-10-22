@@ -1,0 +1,82 @@
+.clients_columns {
+  .table_row {
+    & > :first-child {
+      width: 20%;
+    }
+    & > :nth-child(2) {
+      width: 26%;
+    }
+    & > :nth-child(3) {
+      width: 24%;
+    }
+    & > :nth-child(4) {
+      width: 20%;
+    }
+    & > :last-child {
+      width: 10%;
+    }
+  }
+}
+
+.page_add_btn{
+ display: flex;
+  .table_search{
+    margin-right: 20px;
+  }
+}
+
+.table_icon_wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+
+.icon_small {
+  svg {
+    font-size: 14px;
+  }
+}
+
+.icon_large {
+  svg {
+    font-size: 29px;
+  }
+  p {
+    color: #29323C;
+    font-size: 12px;
+  }
+}
+
+.icon_active {
+  svg {
+    fill: #2CC197;
+    margin-right: 5px;
+  }
+}
+
+.icon_invited {
+  svg {
+    fill: #F5A623;
+    margin-right: 5px;
+  }
+}
+
+.icon_rejected {
+  svg {
+    fill: #FF5267;
+    margin-right: 5px;
+  }
+}
+
+.invite_loader_wrapper {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  margin-left: -14px;
+  &.load_invite {
+    img {
+      -webkit-animation: invite 1s linear infinite;
+      animation: invite 1s linear infinite;
+    }
+  }
+}

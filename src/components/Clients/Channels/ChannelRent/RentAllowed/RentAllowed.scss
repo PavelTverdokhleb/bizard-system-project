@@ -1,0 +1,83 @@
+.rent_editing{
+  padding-bottom: 30px;
+  border-bottom: 2px solid #caccce;
+  & > :last-child {
+    margin-bottom: 10px;
+  }
+  .wallets-info{
+    margin: 0 0 20px;
+  }
+  .client_radio_wrapper{
+    margin: 30px 0 40px 0;
+  }
+  .custom_input{
+    margin-bottom: 0;
+    width: 533px;
+  }
+  .small_field {
+    width: 160px;
+  }
+  .render_radio_wrapper {
+    margin-bottom: 10px;
+  }
+  .client_wallets_wrapper{
+    display: flex;
+    align-items: center;
+  }
+}
+.edit_wallets{
+  margin-left: 20px;
+  .edit_icon{
+    cursor: pointer;
+  }
+  span{
+    color: #29323C;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 27px;
+    cursor: pointer;
+  }
+}
+
+.rent_field_space {
+  margin-bottom: 20px;
+}
+
+.rent_transactions_columns {
+  .table_row {
+    .rent_trans_status {
+      color: #2CC197;
+    }
+    & > :first-child {
+      width: 20%;
+    }
+    & > :nth-child(2) {
+      width: 20%;
+    }
+    & > :nth-child(3) {
+      width: 40%;
+    }
+    & > :last-child {
+      width: 20%;
+    }
+  }
+}
+
+.rent_trans_status {
+  color: #2CC197;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  img {
+    margin-right: 10px;
+  }
+}
+
+.rent_trans_link {
+  display: flex;
+  align-items: center;
+  color: #485563;
+  img {
+    margin-left: 5px;
+  }
+}

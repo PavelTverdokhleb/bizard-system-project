@@ -1,0 +1,18 @@
+.fields_wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  & > .custom_input {
+    margin-right: 40px;
+  }
+}
+
+.edit_clients_page {
+  .display_edit_client {
+    display: block;
+  }
+}
+
+.display_edit_client {
+  display: none;
+}

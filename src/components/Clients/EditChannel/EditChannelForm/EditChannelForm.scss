@@ -1,0 +1,48 @@
+.channel_radio_wrapper{
+  margin-left: 31px;
+  display: flex;
+  .custom_input{
+    width: 533px;
+  }
+  .action_button{
+    margin-right: 10px;
+  }
+}
+
+.channel_editing{
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 2px solid #caccce;
+  .render_radio_wrapper{
+    margin: 20px 0;
+  }
+  .channel_radio_wrapper:last-child{
+    margin-bottom: 0;
+  }
+}
+
+.channel_wallet_field {
+  margin-bottom: 40px;
+}
+
+.wallets-info{
+  color: #29323C;
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.generate-info{
+  color: #29323C;
+  font-size: 14px;
+  line-height: 27px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.channel_field_wrapper {
+  margin-left: 31px;
+  .custom_input {
+    width: 533px;
+  }
+}

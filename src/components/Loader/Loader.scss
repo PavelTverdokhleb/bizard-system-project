@@ -1,0 +1,128 @@
+.cssload-loader {
+  position: relative;
+  left: calc(50% - 31px);
+  width: 100px;
+  height: 100px;
+  margin:130px 0;
+  perspective: 780px;
+}
+
+.cssload-wrapper-auth {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cssload-loader-auth {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  perspective: 780px;
+}
+
+.cssload-wrapper-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 70px - (34px * 2));
+}
+
+.cssload-loader-page {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  perspective: 780px;
+  .cssload-inner {
+    &.cssload-one {
+      border-bottom: 3px solid #29323c;
+    }
+  }
+}
+
+.cssload-wrapper-page_client_inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 70px - (34px * 2) - 132px);
+}
+
+.cssload-loader-page_client_inner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  perspective: 780px;
+  .cssload-inner {
+    &.cssload-one {
+      border-bottom: 3px solid #29323c;
+    }
+  }
+}
+
+.cssload-wrapper-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+}
+
+.cssload-loader-btn {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  perspective: 780px;
+  .cssload-inner {
+    &.cssload-one {
+      border-bottom: 3px solid #29323c;
+    }
+    &.cssload-two {
+      border-right: 3px solid #ebebeb;
+    }
+  }
+}
+
+.cssload-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  &.cssload-one {
+    left: 0%;
+    top: 0%;
+    animation: cssload-rotate-one 1.15s linear infinite;
+    -o-animation: cssload-rotate-one 1.15s linear infinite;
+    -ms-animation: cssload-rotate-one 1.15s linear infinite;
+    -webkit-animation: cssload-rotate-one 1.15s linear infinite;
+    -moz-animation: cssload-rotate-one 1.15s linear infinite;
+    border-bottom: 3px solid #EBEBEB;
+  }
+  &.cssload-two {
+    right: 0%;
+    top: 0%;
+    animation: cssload-rotate-two 1.15s linear infinite;
+    -o-animation: cssload-rotate-two 1.15s linear infinite;
+    -ms-animation: cssload-rotate-two 1.15s linear infinite;
+    -webkit-animation: cssload-rotate-two 1.15s linear infinite;
+    -moz-animation: cssload-rotate-two 1.15s linear infinite;
+    border-right: 3px solid #ffffff;
+  }
+  &.cssload-three {
+    right: 0%;
+    bottom: 0%;
+    animation: cssload-rotate-three 1.15s linear infinite;
+    -o-animation: cssload-rotate-three 1.15s linear infinite;
+    -ms-animation: cssload-rotate-three 1.15s linear infinite;
+    -webkit-animation: cssload-rotate-three 1.15s linear infinite;
+    -moz-animation: cssload-rotate-three 1.15s linear infinite;
+    border-top: 3px solid #E5D6CA;
+  }
+}

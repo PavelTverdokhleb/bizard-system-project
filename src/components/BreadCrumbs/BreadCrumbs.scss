@@ -1,0 +1,22 @@
+.bread_crumbs {
+  padding: 3px 0 10px;
+  a, span {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 13px;
+    text-transform: uppercase;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  span {
+    color: #29323C;
+  }
+  a {
+    color: #A9ACB0;
+  }
+}
+
+.bread_crumbs_item {
+  display: inline-block;
+}

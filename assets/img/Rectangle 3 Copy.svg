@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="762px" height="954px" viewBox="0 0 762 954" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 3 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="1.11022302e-14%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#EBEBEB" offset="0%"></stop>
+            <stop stop-color="#7B828F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.747488839">
+        <g id="6-channels-add" transform="translate(-604.000000, -6.000000)" fill="url(#linearGradient-1)">
+            <g id="bg">
+                <path d="M510.734941,105.293515 C652.251848,224.513023 800.347203,305.003345 955.021006,346.764479 C1109.69481,388.525613 1279.58717,393.890344 1464.69808,362.858671 L1464.69808,866.780214 L504.698077,866.780214 L510.734941,105.293515 Z" id="Rectangle-3-Copy" opacity="0.1" transform="translate(984.698077, 486.036864) rotate(-90.000000) translate(-984.698077, -486.036864) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

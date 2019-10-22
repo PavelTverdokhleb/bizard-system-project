@@ -1,0 +1,25 @@
+.verify-failed{
+  border-radius: 3px;
+  box-shadow: -3px 2px 2px 0 rgba(179,217,248,0.16);
+  padding: 40px 50px;
+  font-weight: 500;
+  .box-icon{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .dialog_block_button{
+    text-align: center;
+  }
+  .wrapper-info{
+    margin-bottom: 30px;
+    color: #29323C;
+  }
+  .text-red{
+    color: #D0021B;
+  }
+  .action_button button {
+    & > :first-child {
+      font-weight: 500;
+    }
+  }
+}

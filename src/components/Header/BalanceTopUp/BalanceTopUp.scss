@@ -1,0 +1,53 @@
+.balance-block {
+  .page_add_btn{
+    button{
+      background: transparent;
+      color: #FDFCFB;
+      border: 1px solid #FDFCFB;
+      padding: 0;
+      min-height: 26px;
+      min-width: 72px;
+    }
+  }
+}
+
+.balance-dialog {
+  position: relative;
+  width: 600px;
+  padding: 50px 140px;
+  .flex-center {
+    justify-content: center;
+  }
+  .edit_input {
+    margin-bottom: 30px;
+  }
+}
+
+.balance-dialog-title {
+  color: #29323C;
+  text-align: center;
+  font-size: 24px;
+  line-height: 27px;
+  padding-bottom: 50px;
+  font-weight: 400;
+}
+
+.balance-dialog-description{
+  padding-top: 15px;
+  color: #29323C;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.exit-dialog{
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  button {
+    padding: 6px;
+  }
+}

@@ -1,0 +1,45 @@
+.transactions_page{
+  position: relative;
+  .table_filters{
+    margin-top: 20px;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .info_page_wrapper{
+    padding: 10px 0 20px ;
+  }
+  .table_container {
+    margin: 0 0 20px;
+  }
+}
+
+.transactions_columns {
+  .table_row {
+    & > :first-child {
+      width: 15%;
+    }
+    & > :nth-child(2) {
+      width: 15%;
+    }
+    & > :nth-child(3) {
+      width: 15%;
+    }
+    & > :nth-child(4) {
+      width: 15%;
+    }
+    & > :nth-child(5) {
+      width: 38%;
+    }
+    & > :last-child {
+      width: 2%;
+      text-align: right;
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}
